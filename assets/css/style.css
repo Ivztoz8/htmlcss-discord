@@ -9,6 +9,12 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Blocks */
 
 .blockheader{
@@ -33,14 +39,15 @@ header{
 /* Tags mod */
 
 bdoy{
+
     max-width: 2560px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
 
-section > p {
+section > p, section > h2 {
     text-align: center;
-    transform: translate(0%, 180%);
+    transform: translate(0%, 0%);
     color: white;
     font-size: 0.9em;
 }
@@ -59,59 +66,65 @@ section > p {
     position: relative;
 }
 
-
-.blockimg{
-   
-}
-
-.bg{
+.section{
     display: inline-block;
     width: 100%;
-    height: 300px;
+    height: 500px;
     position: relative;
-    border: 1px soldi red;
-    padding-bottom: 10%;
-    margin-bottom: 10%;
+}
+
+.sectionf{
+    display: inline-block;
+    width: 100%;
+    height: 700px;
+    position: relative;
 }
 
 .imgbox{
     display: inline-block;
     width: 100%;
-    height: 100%;
-    position: absolute;
-    right: 20%;
-    top: 15%;
-    
+    height: 50%;
+    transform: translate(-20%, 50%);
 }
-
 
 .imgbox1{
     display: inline-block;
     width: 100%;
-    height: 100%;
-    position: absolute;
-    right: 20%;
-    
+    height: 50%;
+    transform: translate(20%, 50%);
 }
+
+.imgbox2{
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    transform: translate(0%, 30%);
+}
+
+
+/* Utility */ 
 
 .bgclwhite{
     background-color: white;
 }
 
 .bgclgray{
-    background-color: gray;
+    background-color: lightgray
+}
+
+.bgcldarkgray {
+    background-color: #282B2E;
+}
+
+.font-c-lightpurple{
+    color: #7C6CDB;
 }
 
 .fontbtit-w{
     font-weight: bold;
 }
 
-/*.waveblock{
-    display: inline-block;
-    width: 100%;
-    height: 30%;
-    background-image: url(./../img/wave.svg);
-    position: absolute;
-    
-    
-}*/
+
+.porel {
+    position: relative;
+}
