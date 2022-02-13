@@ -422,8 +422,9 @@ nav > ul > li > a.fontsmalllink{
 .footer_container{
     display: inline-block;
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: rgb(40, 43, 46);
+    padding-top: 3%;
 }
 
 .footerfollow{
@@ -435,23 +436,25 @@ nav > ul > li > a.fontsmalllink{
 
 .footer{
     font-weight: bold;
-}
-.navf1{
-    display: inline-block;
-    margin-left: 30%;
+    line-height: 30px;
 }
 
-.navf2{
+.navf{
     display: inline-block;
-    margin-left: 8%;
+    width: 13.5%;
 }
+
+.navf1{
+    display: inline-block;
+}
+
 
 .bottombarcontainer{
     display: inline-block;
     width: 80%;
     height: 10px;
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 1%;
     border-bottom: 1px solid rgb(124, 108, 219);
 }
 
@@ -478,6 +481,43 @@ nav > ul > li > a.fontsmalllink{
     margin-top: 30px;
 }
 
+.fpromo_link_container{
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    margin-left: 10%;
+}
+
+.flittlerow{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.minimg{
+    display: inline-block;
+    width: 12%;
+    height: 17px;
+    vertical-align: middle;
+}
+
+.footerlogosocial{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+    margin-right: 25px;
+    
+}
+
+.navflong{
+    display: inline-block;
+    width: 13.5%;
+    margin-left: 63%;
+    margin-top: -20px;
+}
+
 /* Utility */
 
 .style_font_p1{
@@ -497,3 +537,15 @@ nav > ul > li > a.fontsmalllink{
     color: rgb(148, 141, 226);
     font-size: 1.5em;
 }
+
+.foofontwhite{
+    font-size: 0.8em;
+}
+.foofontwhite1{
+    font-size: 1em;
+}
+
+.fontpurplestrong{
+    color: rgb(148, 141, 226);
+}
+
